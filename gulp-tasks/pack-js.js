@@ -8,7 +8,7 @@ var to5ify = require('6to5ify');
 var uglify = require('gulp-uglify');
 
 gulp.task('pack-js', function() {
-  return browserify('./www/js/src/index.js', { debug: true })
+  return browserify('./www/js/src/main.js', { debug: true })
     .transform(to5ify)
     .bundle()
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))

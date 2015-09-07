@@ -1,0 +1,18 @@
+@import 'constants';
+
+.app {
+  text-align: center;
+
+  #choose-a-picture-btn {
+    margin-top: 20px;
+  }
+
+  .imgWrapper {
+    margin-top: 20px;
+
+    img#image {
+      width:250px;
+      height: auto;
+    }
+  }
+}
