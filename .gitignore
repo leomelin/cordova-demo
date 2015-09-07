@@ -1,4 +1,4 @@
 node_modules
 platforms
 .DS_Store
-www/js/dist/*
+www/js/dist/bundle.*
