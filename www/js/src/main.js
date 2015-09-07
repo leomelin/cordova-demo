@@ -2,7 +2,7 @@ import { App } from './app';
 
 class Main {
   constructor (options) {
-    var self = this;
+    let self = this;
     self.message = 'App init successful';
 
     document.addEventListener('deviceready', self.init.bind(self), false);
